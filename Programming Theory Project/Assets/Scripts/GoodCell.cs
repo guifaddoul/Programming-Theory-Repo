@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GoodCell : CellParentScript
 {
-
-   
-
     // Start is called before the first frame update
     void Start()
     {
- //       Debug.Log(test.)
+        
     }
 
     // Update is called once per frame
@@ -18,6 +15,4 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
-    
 }
