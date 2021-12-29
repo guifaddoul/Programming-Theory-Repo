@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    //Move the Player
+    //Move the Player Up and update previous and current position
     public void PlayerMoveUp()
     {
         while (gameObject.transform.position.z < (player_location[1] + 1))
@@ -72,6 +72,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    //Move the Player Down and update previous and current position
     public void PlayerMoveDown()
     {
         while (gameObject.transform.position.z > (player_location[1] -1 ))
@@ -82,6 +83,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    //Move the Player Right and update previous and current position
     public void PlayerMoveRight()
     {
         while (gameObject.transform.position.x < (player_location[0] + 1))
@@ -92,6 +94,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    //Move the Player Left and update previous and current position
     public void PlayerMoveLeft()
     {
         while (gameObject.transform.position.x > (player_location[0] - 1))
@@ -102,23 +105,45 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
+    //Getter for current position
     public int[] getCurrentPosition()
     {
         return player_location;
     }
 
+    //Getter for previous position
     public int[] getPreviousPosition()
     {
         return playerPrevious_location;
     }
 
+    //Getter for winning status
+    public bool getWiningStatus()
+    {
+        return won;
+    }
 
+    //Setter for winning status
+    public void setWiningStatus(bool winningStatus)
+    {
+         won = winningStatus;
+    }
+
+    //Getter for player Energy
     public int getPlayerEnergy()
     {
         return playerEnergy;
     }
 
+    //Setter for player Energy
+    public void setPlayerEnergy(int change)
+    {
+        playerEnergy += change;
+    }
+
+
+
+    //Update the previous position values using "almost old" current position
     private void UpdatePreviousPosition()
     {
         playerPrevious_location[0] = player_location[0];
@@ -127,10 +152,9 @@ public class PlayerController : MonoBehaviour
 
 
     
-
+    //Set the player Inactive
     private void DesactivatePlayer()
-    {
-        
+    {  
             gameObject.SetActive(false);
     }
 

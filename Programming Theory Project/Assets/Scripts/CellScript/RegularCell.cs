@@ -15,4 +15,9 @@ public class RegularCell : CellParentScript
     {
         
     }
+
+    public override void AddRemovePoint()
+    {
+        ActionText.text = "No point gained or lost";
+    }
 }

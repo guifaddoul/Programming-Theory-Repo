@@ -121,12 +121,9 @@ public class BoardScript : MonoBehaviour
     //Desactive Cell After Player
     private void DesactivateCell()
     {
-        print(1);
-
         if( (_player.GetComponent<PlayerController>().getCurrentPosition()[0] != _player.GetComponent<PlayerController>().getPreviousPosition()[0]) 
             || (_player.GetComponent<PlayerController>().getCurrentPosition()[1] != _player.GetComponent<PlayerController>().getPreviousPosition()[1]) )
         {
-            print(2);
             grid[_player.GetComponent<PlayerController>().getPreviousPosition()[0], _player.GetComponent<PlayerController>().getPreviousPosition()[1]].gameObject.SetActive(false);
         }
     }

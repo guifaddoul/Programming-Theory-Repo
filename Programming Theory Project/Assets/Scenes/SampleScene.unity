@@ -1076,6 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOverText: {fileID: 798589827}
   WinText: {fileID: 257529134}
+  PlayerEnergyText: {fileID: 2091838961}
 --- !u!4 &1805945396
 Transform:
   m_ObjectHideFlags: 0

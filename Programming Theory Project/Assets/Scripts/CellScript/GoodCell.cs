@@ -18,7 +18,8 @@ public class GoodCell : CellParentScript
 
     public override void AddRemovePoint()
     {
-        Debug.Log("Add :" + point);
+        ActionText.text = point + " points gained";
+        _player.GetComponent<PlayerController>().setPlayerEnergy(point);
     }
 
 }

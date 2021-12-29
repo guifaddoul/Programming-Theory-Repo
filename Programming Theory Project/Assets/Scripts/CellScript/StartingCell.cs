@@ -15,4 +15,9 @@ public class StartingCell : CellParentScript
     {
         
     }
+
+    public override void AddRemovePoint()
+    {
+        ActionText.text = "Reach the top right corner";
+    }
 }

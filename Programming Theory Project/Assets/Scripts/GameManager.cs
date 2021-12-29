@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI WinText;
 
+    public TextMeshProUGUI PlayerEnergyText;
+
     private GameObject _player;
 
     // Start is called before the first frame update
@@ -23,11 +25,15 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        if (_player.activeInHierarchy == false)
+        if ( (_player.activeInHierarchy == false) || (_player.GetComponent<PlayerController>().getPlayerEnergy() <= 0 ) )
             GameOverText.gameObject.SetActive(true);
+
+        PlayerEnergyText.text = "Player Energy : " + _player.GetComponent<PlayerController>().getPlayerEnergy();
 
     }
 
+
+    
 
     //Display GameOver Text
     

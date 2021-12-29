@@ -19,6 +19,7 @@ public class BadCell : CellParentScript
 
     public override void AddRemovePoint()
     {
-        Debug.Log("Remove :" + -point);
+        ActionText.text = point + " points lost";
+        _player.GetComponent<PlayerController>().setPlayerEnergy(-point);
     }
 }
