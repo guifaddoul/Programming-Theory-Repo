@@ -7,7 +7,7 @@ using UnityEngine;
 public class CellParentScript : MonoBehaviour
 {
     //boolean indicating if the cell is activated
-    private bool isPlayerOn;
+  //  private bool isPlayerOn;
    
     //Actual Cell
     public GameObject cell;
@@ -16,14 +16,21 @@ public class CellParentScript : MonoBehaviour
     public GameObject coverPlane = null;
 
     //Point to add or Remove
-    public int point;
+    protected int point;
+
+
+
+    private void Awake()
+    {
+        point = Random.Range(1, 21);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-         isPlayerOn = false;
+//         isPlayerOn = false;
 
-        point = Random.Range(1, 21);
+        
     }
 
     // Update is called once per frame
@@ -34,7 +41,7 @@ public class CellParentScript : MonoBehaviour
 
     public void SetPlayerOn()
     {
-        isPlayerOn = true;
+  //      isPlayerOn = true;
         AddRemovePoint();
     }
 
@@ -49,6 +56,11 @@ public class CellParentScript : MonoBehaviour
     {
         // Destroy(gameObject);
         gameObject.SetActive(false);
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        SetPlayerOn();
     }
 
 }
