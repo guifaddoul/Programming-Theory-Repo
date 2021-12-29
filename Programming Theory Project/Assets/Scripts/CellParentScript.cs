@@ -7,8 +7,8 @@ using TMPro;
 public class CellParentScript : MonoBehaviour
 {
     //boolean indicating if the cell is activated
-    private bool isPlayerOn;
-    private bool startTimer;
+   // private bool isPlayerOn;
+   // private bool startTimer;
 
   
     //Text of the Cell representing the key to press
