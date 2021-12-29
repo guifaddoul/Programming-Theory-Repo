@@ -102,7 +102,7 @@ public class BoardScript : MonoBehaviour
         {
             for (int j = playerRow - 1; j <= playerRow + 1; j++)
             {
-                if ((i >= 0) && (j >= 0))
+                if ((i >= 0) && (j >= 0) && (i<columns) &&(j< rows))
                 {
                     grid[i, j].GetComponent<CellParentScript>().coverPlane.SetActive(false);
                 }
