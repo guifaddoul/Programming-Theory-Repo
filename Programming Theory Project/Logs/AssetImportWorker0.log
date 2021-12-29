@@ -471,3 +471,185 @@ Received Import Request.
 Start importing Assets/Scripts/CellParentScript.cs using Guid(3f28416003eaa714bae6b833c4554468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe96b557c715c7475acffa16038f47f') in 0.002296 seconds 
   Import took 0.004381 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.684700 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.441600 ms  DeleteObjects: 0.090700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.563575 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(eeace3ac5c036fe47a493a467ee0cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(eeace3ac5c036fe47a493a467ee0cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62c2374deb0b813cec99e74781c2534') in 0.003844 seconds 
+  Import took 0.005966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001533 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(eeace3ac5c036fe47a493a467ee0cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(eeace3ac5c036fe47a493a467ee0cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62c2374deb0b813cec99e74781c2534') in 0.002188 seconds 
+  Import took 0.004315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.540205 seconds.
+  path: Assets/Scripts/CellParentScript.cs
+  artifactKey: Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellParentScript.cs using Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6a370a1c00b5975c73f782eef7771d') in 0.001811 seconds 
+  Import took 0.003870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022390 seconds.
+  path: Assets/Scripts/CellParentScript.cs
+  artifactKey: Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellParentScript.cs using Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6a370a1c00b5975c73f782eef7771d') in 0.001852 seconds 
+  Import took 0.003842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.434944 seconds.
+  path: Assets/Scripts/CellParentScript.cs
+  artifactKey: Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellParentScript.cs using Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b44962b533b07246f46f1ba0b76f6e5') in 0.004613 seconds 
+  Import took 0.006938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.918222 seconds.
+  path: Assets/Scripts/BadCell.cs
+  artifactKey: Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BadCell.cs using Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04312d5b393c989de443990de6eaaa66') in 0.001679 seconds 
+  Import took 0.012487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.427410 seconds.
+  path: Assets/Scripts/BadCell.cs
+  artifactKey: Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BadCell.cs using Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b22ec2f3883d55ebde70c12195119') in 0.001875 seconds 
+  Import took 0.004090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/Scripts/BadCell.cs
+  artifactKey: Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BadCell.cs using Guid(14487d9f686043f43adda8bac6586099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b22ec2f3883d55ebde70c12195119') in 0.001884 seconds 
+  Import took 0.003985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.328827 seconds.
+  path: Assets/Scripts/CellScript/StartingCell.cs
+  artifactKey: Guid(652842d6379884a4aac224de2586a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellScript/StartingCell.cs using Guid(652842d6379884a4aac224de2586a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18faea9de1a1b2faccf0fce2dec0f2a') in 0.001866 seconds 
+  Import took 0.018733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.898067 seconds.
+  path: Assets/Scripts/CellScript/EndCell.cs
+  artifactKey: Guid(0641985a0e5ae7147be05b802d204082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellScript/EndCell.cs using Guid(0641985a0e5ae7147be05b802d204082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc2ae55685d9e7e103be83965f3a56f') in 0.002082 seconds 
+  Import took 0.010497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.724843 seconds.
+  path: Assets/Scripts/GoodCell.cs
+  artifactKey: Guid(ca13334d4fe1ce74e9c01e3a5ebb4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GoodCell.cs using Guid(ca13334d4fe1ce74e9c01e3a5ebb4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a404385d88089f5fb232e681a09b8e') in 0.001854 seconds 
+  Import took 0.003973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Scripts/GoodCell.cs
+  artifactKey: Guid(ca13334d4fe1ce74e9c01e3a5ebb4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GoodCell.cs using Guid(ca13334d4fe1ce74e9c01e3a5ebb4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a404385d88089f5fb232e681a09b8e') in 0.001686 seconds 
+  Import took 0.003782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.604877 seconds.
+  path: Assets/Scripts/CellParentScript.cs
+  artifactKey: Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellParentScript.cs using Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43d22ad3c89a23b66d6eaee8a6d398c') in 0.001607 seconds 
+  Import took 0.003577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001353 seconds.
+  path: Assets/Scripts/CellParentScript.cs
+  artifactKey: Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CellParentScript.cs using Guid(f054746bf3491ae459f9e69cd5076a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43d22ad3c89a23b66d6eaee8a6d398c') in 0.002348 seconds 
+  Import took 0.004463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.493472 seconds.
+  path: Assets/Scripts/BoardScript.cs
+  artifactKey: Guid(8e214c66111f71647bf5ec92bd20820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BoardScript.cs using Guid(8e214c66111f71647bf5ec92bd20820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d0cb9fac5ea6056ad06e469087f7f2') in 0.002454 seconds 
+  Import took 0.004682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 1.554500 ms (FindLiveObjects: 0.113600 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.364000 ms  DeleteObjects: 0.041800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

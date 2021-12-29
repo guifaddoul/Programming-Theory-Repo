@@ -29,13 +29,7 @@ public class CellParentScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
 
-  /*      if(isPlayerGone)
-        {
-            DestroyCell();
-        }
-        */
     }
 
     public void SetPlayerOn()
