@@ -9,10 +9,7 @@ public class BoardScript : MonoBehaviour
     //GameObject linked to basic cell prefabs
     public GameObject StartCellParent;
     public GameObject EndCellParent;
-
     public GameObject[] OtherCell;
-
-    private GameObject Cell;
 
     //number of rows and columns in the grid
     private int columns = 10;
@@ -25,7 +22,7 @@ public class BoardScript : MonoBehaviour
     //handle to Player
     private GameObject _player;
 
-
+    //number of cell of different types allowed
     private int goodCellAmount = 30;
     private int badCellAmount = 40;
     private int regularCellAmount = 28;
@@ -33,24 +30,21 @@ public class BoardScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //We create the board
         CreateGrid();
 
         //we grab the player
         _player = GameObject.Find("Player");
-
-        //We grab the Cell
-        
-
-        //We grab the text
     }
 
     // Update is called once per frame
     void Update()
     {
-        //     grid[i, j].GetComponentInChildren
-
-
+        //We activate cells arround the player
+         // ABSTRACTION
         ActivateCell();
+        //We desactivate cells after the player
+         // ABSTRACTION
         DesactivateCell();
     }
     

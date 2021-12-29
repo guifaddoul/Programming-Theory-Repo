@@ -106,36 +106,42 @@ public class PlayerController : MonoBehaviour
     }
 
     //Getter for current position
+    // ENCAPSULATION
     public int[] getCurrentPosition()
     {
         return player_location;
     }
 
     //Getter for previous position
+    // ENCAPSULATION
     public int[] getPreviousPosition()
     {
         return playerPrevious_location;
     }
 
     //Getter for winning status
+    // ENCAPSULATION
     public bool getWiningStatus()
     {
         return won;
     }
 
     //Setter for winning status
+    // ENCAPSULATION
     public void setWiningStatus(bool winningStatus)
     {
          won = winningStatus;
     }
 
     //Getter for player Energy
+    // ENCAPSULATION
     public int getPlayerEnergy()
     {
         return playerEnergy;
     }
 
     //Setter for player Energy
+    // ENCAPSULATION
     public void setPlayerEnergy(int change)
     {
         playerEnergy += change;
@@ -144,6 +150,7 @@ public class PlayerController : MonoBehaviour
 
 
     //Update the previous position values using "almost old" current position
+    // ABSTRACTION
     private void UpdatePreviousPosition()
     {
         playerPrevious_location[0] = player_location[0];

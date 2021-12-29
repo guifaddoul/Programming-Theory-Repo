@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// INHERITANCE
 public class EndCell : CellParentScript
 {
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class EndCell : CellParentScript
     {
         
     }
-
+    // POLYMORPHISM
     public override void AddRemovePoint()
     {
         ActionText.text =  "You Won !";

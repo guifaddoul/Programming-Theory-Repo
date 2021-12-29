@@ -6,9 +6,7 @@ using TMPro;
 
 public class CellParentScript : MonoBehaviour
 {
-    //boolean indicating if the cell is activated
-  //  private bool isPlayerOn;
-   
+ 
     //Actual Cell
     public GameObject cell;
 
@@ -40,9 +38,6 @@ public class CellParentScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-//         isPlayerOn = false;
-
-        
     }
 
     // Update is called once per frame
@@ -51,12 +46,7 @@ public class CellParentScript : MonoBehaviour
 
     }
 
-    public void SetPlayerOn()
-    {
-        AddRemovePoint();
-    }
-
-
+    // POLYMORPHISM
     public virtual void AddRemovePoint()
     {
 
@@ -68,9 +58,10 @@ public class CellParentScript : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    //When the player collides with a cell we perform the required action
     public void OnCollisionEnter(Collision collision)
     {
-        SetPlayerOn();
+        AddRemovePoint();
     }
 
 }
