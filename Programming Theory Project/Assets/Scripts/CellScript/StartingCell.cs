@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartingCell : MonoBehaviour
+public class StartingCell : CellParentScript
 {
     // Start is called before the first frame update
     void Start()

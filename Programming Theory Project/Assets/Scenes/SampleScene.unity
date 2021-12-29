@@ -369,7 +369,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &375688041
 MonoBehaviour:
@@ -383,11 +383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f404d5921cea704faf72f2e79f2ad87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_location: 
-  allowedUp: 0
-  allowedDown: 0
-  allowedRight: 0
-  allowedLeft: 0
 --- !u!1 &549347644
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +395,6 @@ GameObject:
   - component: {fileID: 549347648}
   - component: {fileID: 549347647}
   - component: {fileID: 549347646}
-  - component: {fileID: 549347645}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -408,19 +402,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &549347645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549347644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5c9e6b69f36cc040b97b68745465ad9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DiceText: {fileID: 0}
 --- !u!114 &549347646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,12 +905,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e214c66111f71647bf5ec92bd20820b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CellParent: {fileID: 0}
-  startingCell: {fileID: 0}
-  endingCell: {fileID: 0}
-  blankCell: {fileID: 0}
-  goodCell: {fileID: 0}
-  badCell: {fileID: 0}
+  StartCellParent: {fileID: 1887799877296794802, guid: d86c109cb105e77438809f8a822c5a62, type: 3}
+  EndCellParent: {fileID: 6866703980709550931, guid: 8cbdadc91001b0e44abc93c6abbad275, type: 3}
+  OtherCell:
+  - {fileID: 1594570022025297815, guid: ee4fbc31b94de414eb5cab730125b0f8, type: 3}
+  - {fileID: 3281482351622361526, guid: 21695a73857c0524ab5dd69e7e4e93b1, type: 3}
+  - {fileID: 9163118827389466304, guid: 1e9caaa3624462b4cba3ef270c4bd616, type: 3}
 --- !u!1 &1798647435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeace3ac5c036fe47a493a467ee0cc15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverText: {fileID: 798589827}
+  WinText: {fileID: 257529134}
 --- !u!4 &1805945396
 Transform:
   m_ObjectHideFlags: 0
