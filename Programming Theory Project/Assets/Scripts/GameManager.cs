@@ -30,6 +30,9 @@ public class GameManager : MonoBehaviour
 
         PlayerEnergyText.text = "Player Energy : " + _player.GetComponent<PlayerController>().getPlayerEnergy();
 
+        if (_player.GetComponent<PlayerController>().getWiningStatus())
+            WinText.gameObject.SetActive(true);
+
     }
 
 

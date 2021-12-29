@@ -19,5 +19,6 @@ public class EndCell : CellParentScript
     public override void AddRemovePoint()
     {
         ActionText.text =  "You Won !";
+        _player.GetComponent<PlayerController>().setWiningStatus(true);
     }
 }
